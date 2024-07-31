@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazin de Produse Personalizate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Magazin de Produse Personalizate</h1>
+        <nav>
+            <a href="#products">Produse</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="products">
+            <h2>Produse</h2>
+            <div class="product" data-id="1">
+                <h3>Cana Personalizată</h3>
+                <img src="https://via.placeholder.com/150" alt="Cana Personalizată">
+                <p>Preț: 29.99 RON</p>
+                <button class="add-to-cart" data-name="Cana Personalizată" data-price="29.99">Adaugă în coș</button>
+            </div>
+            <div class="product" data-id="2">
+                <h3>Tricou Personalizat</h3>
+                <img src="https://via.placeholder.com/150" alt="Tricou Personalizat">
+                <p>Preț: 49.99 RON</p>
+                <button class="add-to-cart" data-name="Tricou Personalizat" data-price="49.99">Adaugă în coș</button>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Nume:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Trimite</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Magazin de Produse Personalizate. Toate drepturile rezervate.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
