@@ -8,18 +8,44 @@ body {
 header {
     background-color: #333;
     color: white;
-    padding: 1em 0;
-    text-align: center;
+    padding: 1em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-header nav a {
+.logo img {
+    max-height: 60px;
+    display: block;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+
+nav a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 10px;
+    padding: 10px 15px;
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+nav a:hover {
+    background-color: #444;
+    border-radius: 5px;
 }
 
 main {
     padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
 }
 
 .product {
@@ -44,6 +70,7 @@ button {
     padding: 0.5em 1em;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {

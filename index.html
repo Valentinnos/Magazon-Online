@@ -8,14 +8,23 @@
 </head>
 <body>
     <header>
-        <h1>Magazin de Produse Personalizate</h1>
+        <div class="logo">
+            <img src ="logojustin.png.png" alt="Logo Magazin" />
+        </div>
         <nav>
+            <a href="#home">Home</a>
             <a href="#products">Produse</a>
+            <a href="#about">Despre Noi</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
     
     <main>
+        <section id="home">
+            <h2>Bine ai venit!</h2>
+            <p>Descoperă produsele noastre personalizate, făcute cu dragoste și atenție la detalii.</p>
+        </section>
+        
         <section id="products">
             <h2>Produse</h2>
             <div class="product" data-id="1">
@@ -30,6 +39,23 @@
                 <p>Preț: 49.99 RON</p>
                 <button class="add-to-cart" data-name="Tricou Personalizat" data-price="49.99">Adaugă în coș</button>
             </div>
+            <div class="product" data-id="3">
+                <h3>Mouse Pad Personalizat</h3>
+                <img src="https://via.placeholder.com/150" alt="Mouse Pad Personalizat">
+                <p>Preț: 19.99 RON</p>
+                <button class="add-to-cart" data-name="Mouse Pad Personalizat" data-price="19.99">Adaugă în coș</button>
+            </div>
+            <div class="product" data-id="4">
+                <h3>Poster Personalizat</h3>
+                <img src="https://via.placeholder.com/150" alt="Poster Personalizat">
+                <p>Preț: 39.99 RON</p>
+                <button class="add-to-cart" data-name="Poster Personalizat" data-price="39.99">Adaugă în coș</button>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>Despre Noi</h2>
+            <p>Aici poți adăuga o descriere detaliată despre afacerea ta, valorile și misiunea ta. Completați cu informații relevante despre echipa ta și ce faceți în mod unic.</p>
         </section>
         
         <section id="contact">
